@@ -12,7 +12,7 @@ node("docker"){
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("chsci/chsci-sampleangular")
+        app = docker.build("chsci/chsci-sampleang")
     }
 
     stage('Test image') {
